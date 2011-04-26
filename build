@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+CC=gcc-mp-4.6
+
+mkdir -p bin
+$CC src/*.cc -o bin/brainer -std=gnu++0x -O3
